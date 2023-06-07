@@ -1,0 +1,22 @@
+#descriptionHtml div {
+    @apply mb-6;
+}
+#descriptionHtml h2 span {
+    @apply py-6 font-bold text-lg;
+}
+#descriptionHtml p {
+    @apply mb-6;
+}
+#descriptionHtml img {
+    @apply my-8;
+}
+
+#descriptionHtml li {
+    list-style: disc;
+    margin-left: 1.2rem;
+    @apply my-4
+}
+
+#descriptionHtml a {
+    @apply py-2 text-emerald-700 underline font-medium;
+}
