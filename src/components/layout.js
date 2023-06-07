@@ -1,8 +1,8 @@
-import React from 'react';
-import { useStaticQuery, graphql } from "gatsby";
+import React from "react";
+import Footer from "./footer";
+import { graphql, useStaticQuery } from "gatsby";
 
 import Header from "./nav";
-import Footer from "./footer";
 
 const Layout = ({ children }) => {
     const data = useStaticQuery(graphql`
@@ -14,12 +14,15 @@ const Layout = ({ children }) => {
             }
         }
     `);
-
     return (
         <>
-            
-            <main className="w-full overflow-hidden main text-center">{children}</main>
-            <div className='h-[200vh]' />
+            <Header
+                siteTitle={data.site.siteMetadata?.title || `Dorabianie Kluczy`}
+            />
+            <main className="w-full overflow-hidden main text-center">
+                {children}
+            </main>
+            <div className="h-[200vh]" />
             <Footer />
         </>
     );

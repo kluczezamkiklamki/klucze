@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 import Seo from "../components/seo";
 import { StaticImage } from "gatsby-plugin-image";
 import { graphql, useStaticQuery, Link } from "gatsby";
-import Header from "../components/nav";
+
 // import {
 //     HeroSection,
 //     CardsSection,
@@ -15,30 +15,20 @@ import Header from "../components/nav";
 // } from "../components/HomePage/index";
 
 const Home = () => {
-    const data = useStaticQuery(graphql`
-        query SiteTitleQuery {
-            site {
-                siteMetadata {
-                    title
-                }
-            }
-        }
-    `);
-
     return (
-        <Layout>
+        <div className="mx-auto w-full text-center bg-fixed">
             <StaticImage
+                style={{ margin: "10px 0" }}
                 draggable="false"
                 quality={100}
+                loading="eager"
+                placeholder="none"
                 alt="logo kluczezamkiklamki"
                 src="../assets/heroLogo.jpg"
             />
-            <div className="py-2 bg-[#A50A0A]">
-                <Header
-                    siteTitle={data.site.siteMetadata?.title || `Dorabianie Kluczy`}
-                />
-            </div>
-        </Layout>
+
+            <Layout></Layout>
+        </div>
     );
 };
 
