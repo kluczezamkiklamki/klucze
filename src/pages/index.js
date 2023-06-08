@@ -4,21 +4,13 @@ import Seo from "../components/seo";
 import { StaticImage } from "gatsby-plugin-image";
 import { graphql, useStaticQuery, Link } from "gatsby";
 
-// import {
-//     HeroSection,
-//     CardsSection,
-//     EtapsSection,
-//     HappySection,
-//     VideoSection,
-//     ImgSection,
-//     OpinieSection,
-// } from "../components/HomePage/index";
+import { CardsServices } from "../components/HomePage/index";
 
 const Home = () => {
     return (
         <div className="mx-auto w-full text-center bg-fixed">
             <StaticImage
-                style={{ margin: "10px 0" }}
+                style={{ margin: "10px 20px" }}
                 draggable="false"
                 quality={100}
                 loading="eager"
@@ -27,7 +19,9 @@ const Home = () => {
                 src="../assets/heroLogo.jpg"
             />
 
-            <Layout></Layout>
+            <Layout>
+                <CardsServices />
+            </Layout>
         </div>
     );
 };
