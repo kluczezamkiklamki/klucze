@@ -16,17 +16,6 @@ module.exports = {
             options: {},
         },
         {
-            resolve: `gatsby-source-datocms`,
-            options: {
-                apiToken: `351f1338e7af25eda125e539bff08c`,
-                environment: `main`,
-                previewMode: false,
-                disableLiveReload: false,
-                pageSize: 500,
-            },
-        },
-
-        {
             resolve: `gatsby-omni-font-loader`,
             options: {
                 enableListener: true,
