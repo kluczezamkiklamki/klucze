@@ -12,6 +12,16 @@ module.exports = {
     },
     plugins: [
         {
+            resolve: `gatsby-source-datocms`,
+            options: {
+                apiToken: `efce9b9c25b9ef09a2c330a014e371`,
+                environment: `main`,
+                previewMode: false,
+                disableLiveReload: false,
+                pageSize: 500,
+            },
+        },
+        {
             resolve: `gatsby-transformer-remark`,
             options: {},
         },
