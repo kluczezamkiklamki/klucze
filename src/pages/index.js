@@ -2,9 +2,8 @@ import React from "react";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
 import { StaticImage } from "gatsby-plugin-image";
-import { graphql, useStaticQuery, Link } from "gatsby";
 
-import { CardsServices } from "../components/HomePage/index";
+import { CardsServices, KeysServices } from "../components/HomePage/index";
 
 const Home = () => {
     return (
@@ -21,6 +20,7 @@ const Home = () => {
 
             <Layout>
                 <CardsServices />
+                <KeysServices />
             </Layout>
         </div>
     );
@@ -28,7 +28,7 @@ const Home = () => {
 
 export const Head = () => (
     <Seo
-        title="Dorabianie Kluczy"
+        title="Dorabianie Kluczy - Ostrów Wielkopolski"
         description="Zaplanuj niezapomnianą przygodę na wodach Tanwi z naszymi kajakami, Odkryj piękno natury i ciesz się aktywnym spływem Zarezerwuj i zanurz się w emocjach"
     />
 );

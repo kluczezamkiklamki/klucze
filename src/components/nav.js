@@ -1,10 +1,9 @@
 import React from "react";
-import { useState } from "react";
 import { Link } from "gatsby";
 
 export default function Nav() {
     return (
-        <nav className="bg-[#A50A0A] text-gray-100 py-2 rounded-sm sticky top-0 z-50">
+        <nav className="bg-[#A50A0A] text-gray-100 py-3 rounded-sm sticky top-0 z-50">
             <ul className="flex-center space-x-7">
                 <li>
                     <Link to="/" aria-label="Strona Główna" title="Strona Główna">Strona Główna</Link>
