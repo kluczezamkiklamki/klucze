@@ -9,9 +9,6 @@ export default function Nav() {
                     <Link to="/" aria-label="Strona Główna" title="Strona Główna">Strona Główna</Link>
                 </li>
                 <li>
-                    <Link to="/usługi" aria-label="Usługi" title="Usługi">Usługi</Link>
-                </li>
-                <li>
                     <Link to="/cennik" aria-label="Cennik" title="Cennik">Cennik</Link>
                 </li>
                 <li>

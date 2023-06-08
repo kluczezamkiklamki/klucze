@@ -6,38 +6,44 @@ import { graphql, Link } from "gatsby";
 
 import "../styles/template.css";
 
-const CardTemplate = ({
+const KeyTemplate = ({
     pageContext: { slug },
     data: { datoCmsKey, allDatoCmsKey },
 }) => {
     return (
         <Layout>
-            <div className="flex flex-col lg:flex-row overflow-hidden w-full z-10">
-                <section class="container px-3 mx-auto lg:w-4/5">
-                    <section class=" mb-6 md:mb-12 text-gray-800">
-                        <div class="container mx-auto xl:px-32 text-start lg:text-left">
+            <div className="flex flex-col lg:flex-row overflow-hidden w-full z-10 mt-10 lg:mt-16">
+                <section class="container px-3 xl:px-32 mx-auto lg:w-4/5">
+                    <h1 class="text-4xl lg:text-5xl text-gray-800 font-bold md:pl-12 text-start capitalize pb-2 mb-5">
+                        {datoCmsKey.title}
+                    </h1>
+                    <section class="mb-6 md:mb-12 text-gray-800">
+                        <div class="mx-auto text-start lg:text-left">
                             <div class="flex flex-col items-center md:items-center">
-                                <div className="md:px-12">
+                                <div className="md:px-12 my-4">
                                     <GatsbyImage
                                         image={getImage(datoCmsKey.img)}
                                         alt={datoCmsKey.imgtitle}
                                         title={datoCmsKey.imgtitle}
                                     />
-                                    <div className="flex items-start justify-end mx-3 space-x-4 my-4"></div>
                                 </div>
-                                <div class="pl-4 px-12">
-                                    <div class="block mt-1 -tracking-wide rounded-lg py-3 md:px-12 lg:-mr-14 text-start">
-                                        <h1 class="text-3xl font-bold capitalize pb-2 mb-5">
-                                            {datoCmsKey.title}
-                                        </h1>
-                                        <p class="text-gray-700 text-lg mb-4 pb-2">
-                                            <div
-                                                id="descriptionHtml"
-                                                dangerouslySetInnerHTML={{
-                                                    __html: datoCmsKey.desc,
-                                                }}
-                                            />
-                                        </p>
+
+                                <div class="block mt-1 -tracking-wide rounded-lg py-3 md:px-12 text-start">
+                                    <div class="text-lg mb-4 pb-2">
+                                        <div className="flex-start font-semibold mb-4">
+                                            <p className="mr-4">
+                                                Cena jednego klucza:
+                                            </p>
+                                            <p className="text-xl">
+                                                {datoCmsKey.price}
+                                            </p>
+                                        </div>
+                                        <p
+                                            id="descriptionHtml"
+                                            dangerouslySetInnerHTML={{
+                                                __html: datoCmsKey.desc,
+                                            }}
+                                        />
                                     </div>
                                 </div>
                             </div>
@@ -79,20 +85,33 @@ const CardTemplate = ({
 };
 
 export const Head = ({ data: { datoCmsKey } }) => (
-    <Seo title={datoCmsKey.title} />
+    <Seo
+        title={datoCmsKey.seo.title}
+        description={datoCmsKey.seo.description}
+    />
 );
 
-export default CardTemplate;
+export default KeyTemplate;
 
 export const query = graphql`
-    query MyQuery($slug: String) {
+    query ($slug: String) {
         datoCmsKey(slug: { eq: $slug }) {
             desc
             title
             imgtitle
+            price
             slug
             img {
-                gatsbyImageData
+                gatsbyImageData(
+                    placeholder: NONE
+                    height: 400
+                    width: 400
+                    forceBlurhash: false
+                )
+            }
+            seo {
+                description
+                title
             }
         }
         allDatoCmsKey {
@@ -101,7 +120,12 @@ export const query = graphql`
                     imgtitle
                     slug
                     img {
-                        gatsbyImageData
+                        gatsbyImageData(
+                            height: 200
+                            width: 200
+                            forceBlurhash: false
+                            placeholder: NONE
+                        )
                     }
                 }
             }

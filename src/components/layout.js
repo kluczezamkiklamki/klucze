@@ -22,7 +22,6 @@ const Layout = ({ children }) => {
             <main className="w-full overflow-hidden main text-center">
                 {children}
             </main>
-            <div className="h-[200vh]" />
             <Footer />
         </>
     );
