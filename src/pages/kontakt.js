@@ -100,14 +100,6 @@ const Kontakt = () => {
                     <p>biuro@kluczezamkiklamki.pl</p>
                 </Link>
             </div>
-            {/* ul. Wolności 26 ( w punkcie fotograficznyn Fotohorosiewicz)
-63-400 Ostrów Wielkopolski
-tel. 502-331-002
-e-mail: biuro@kluczezamkiklamki.pl
-
-czynne: poniedziałek - piątek  10:00 - 17:00
-           w soboty  10:00 - 13:00 */}
-
             <div className="flex-center flex-col lg:flex-row">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1349.8218635590617!2d17.810383706794774!3d51.64913924861617!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ab57bd923852f%3A0xfaed1e7e82c189d3!2sDorabianie%20kluczy%20Ostr%C3%B3w%20Wlkp.%20-%20przy%20urz%C4%99dzie%20pracy!5e0!3m2!1spl!2sus!4v1686300222187!5m2!1spl!2sus"
@@ -154,7 +146,7 @@ czynne: poniedziałek - piątek  10:00 - 17:00
 
 export const Head = () => (
     <Seo
-        title="Kontakt -"
+        title="Kontakt - Dorabianie Kluczy"
         description="Zobacz najlepsze oferty spływów kajakowych na rzece Tanew. Sprawdź dostępne trasy, terminy i ceny. Zaplanuj aktywny wypoczynek na wodzie z rodziną i przyjaciółmi"
     />
 );
