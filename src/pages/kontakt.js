@@ -151,7 +151,7 @@ const Kontakt = () => {
 export const Head = () => (
     <Seo
         title="Kontakt Dorabianie Kluczy - Ostrów Wielkopolski"
-        description="Potrzebujesz dorabiania kluczy w Ostrowie Wielkopolskim? Skorzystaj z naszych usług! Profesjonalne dorabianie kluczy na miejscu. Sprawdź naszą ofertę już dziś!"
+        description="Potrzebujesz dorabiania kluczy w Ostrowie Wielkopolskim? Skorzystaj z naszych usług! Profesjonalne dorabianie kluczy na miejscu. Sprawdź naszą ofertę"
     />
 );
 

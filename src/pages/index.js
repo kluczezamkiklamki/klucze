@@ -127,7 +127,7 @@ const Home = () => {
                     ></iframe>
                     <div>
                         <h2 className="text-lg font-bold py-6">
-                            Dorabianie Kluczy - Ostrów Wielkopolski: Wyjątkowa
+                            <strong>Dorabianie Kluczy - Ostrów Wielkopolski</strong>: Wyjątkowa
                             usługa dla Twoich potrzeb
                         </h2>
                         <p>
@@ -146,7 +146,7 @@ const Home = () => {
                         </p>
                         <h2 className="text-lg font-bold py-6">Profesjonalizm i doświadczenie</h2>
                         <p>
-                            Dorabianie kluczy to nie tylko kwestia stworzenia
+                            <strong>Dorabianie kluczy</strong> to nie tylko kwestia stworzenia
                             fizycznego egzemplarza klucza. To proces, który
                             wymaga precyzji, doświadczenia i odpowiednich
                             narzędzi. Dlatego ważne jest, aby znaleźć rzetelnego
@@ -217,7 +217,7 @@ const Home = () => {
 export const Head = () => (
     <Seo
         title="Dorabianie Kluczy - Ostrów Wielkopolski"
-        description="Potrzebujesz dorabiania kluczy w Ostrowie Wielkopolskim? Skorzystaj z naszych usług! Profesjonalne dorabianie kluczy na miejscu. Sprawdź naszą ofertę już dziś!"
+        description="Potrzebujesz dorabiania kluczy w Ostrowie Wielkopolskim? Skorzystaj z naszych usług! Profesjonalne dorabianie kluczy na miejscu. Sprawdź naszą ofertę"
     />
 );
 

@@ -13,8 +13,9 @@ const CardsServices = () => {
                     height={250}
                     width={330}
                     placeholder="none"
-                    alt="dorabianie kluczy"
-                    src="../../assets/11.jpg"
+                    title="Dorabianie Kluczy"
+                    alt="Dorabianie Kluczy"
+                    src="../../assets/Dorabianie.jpg"
                 />
                 <StaticImage
                     style={{ margin: "20px 12px", borderRadius: "5px" }}
@@ -23,8 +24,9 @@ const CardsServices = () => {
                     height={250}
                     width={330}
                     placeholder="none"
+                    title="Dorabianie Kluczy"
                     alt="dorabianie kluczy"
-                    src="../../assets/12.jpg"
+                    src="../../assets/Kluczy.jpg"
                 />
                 <StaticImage
                     style={{ margin: "20px 12px", borderRadius: "5px" }}
@@ -33,8 +35,9 @@ const CardsServices = () => {
                     height={250}
                     width={330}
                     placeholder="none"
+                    title="Dorabianie Kluczy Ostrów Wielkopolski"
                     alt="dorabianie kluczy"
-                    src="../../assets/13.jpg"
+                    src="../../assets/dorabianie-kluczy.jpg"
                 />
             </div>
         </section>
