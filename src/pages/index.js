@@ -88,12 +88,6 @@ const Home = () => {
                             które są dostosowane do Twojego budżetu.
                         </li>
                         <li className="list-disc ml-6 my-3">
-                            Profesjonalizm i doświadczenie - Nasz zespół składa
-                            się z wykwalifikowanych specjalistów, którzy
-                            gwarantują najwyższą jakość. Z pasją i
-                            zaangażowaniem podchodzą do powierzonego zadania.
-                        </li>
-                        <li className="list-disc ml-6 my-3">
                             Zaufanie i satysfakcja klienta - Dlatego cieszymy
                             się pozytywnymi opiniami naszych zadowolonych
                             klientów. Pomożemy rozwiązać każdy problem, a każdą
