@@ -10,6 +10,8 @@ const CardsServices = () => {
                     style={{ margin: "20px 12px", borderRadius: "5px" }}
                     quality={100}
                     loading="eager"
+                    height={250}
+                    width={330}
                     placeholder="none"
                     alt="dorabianie kluczy"
                     src="../../assets/11.jpg"
@@ -18,6 +20,8 @@ const CardsServices = () => {
                     style={{ margin: "20px 12px", borderRadius: "5px" }}
                     quality={100}
                     loading="eager"
+                    height={250}
+                    width={330}
                     placeholder="none"
                     alt="dorabianie kluczy"
                     src="../../assets/12.jpg"
@@ -26,6 +30,8 @@ const CardsServices = () => {
                     style={{ margin: "20px 12px", borderRadius: "5px" }}
                     quality={100}
                     loading="eager"
+                    height={250}
+                    width={330}
                     placeholder="none"
                     alt="dorabianie kluczy"
                     src="../../assets/13.jpg"

@@ -30,7 +30,7 @@ const KeyTemplate = ({
 
                                 <div class="block mt-1 -tracking-wide rounded-lg py-3 md:px-12 text-start">
                                     <div class="text-lg mb-4 pb-2">
-                                        <div className="flex-start font-semibold mb-4">
+                                        <div className="flex-start font-semibold mb-4 bg-green-700 rounded-md w-max px-2 text-white">
                                             <p className="mr-4">
                                                 Cena jednego klucza:
                                             </p>
@@ -52,13 +52,13 @@ const KeyTemplate = ({
                 </section>
 
                 <section className="mt-2 my-12 mx-auto lg:w-1/5">
-                    <div className="grid grid-cols-1 gap-8 sm:gap-12">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-8 sm:gap-12">
                         {allDatoCmsKey.edges.map(({ node }) => (
                             <Link
                                 to={`/` + node.slug}
-                                className="flex mx-6 flex-row items-center px-3 justify-start m-0 gap-4 lg:gap-6 text-start"
+                                className="flex flex-col xl:flex-row items-center px-2 justify-start m-0 gap-4 text-start"
                             >
-                                <div className="group w-32 h-32 block self-start shrink-0 bg-gray-100 overflow-hidden rounded-lg shadow-lg relative">
+                                <div className="group w-32 h-32 block self-center shrink-0 bg-gray-100 overflow-hidden rounded-lg shadow-lg relative">
                                     <GatsbyImage
                                         className="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200"
                                         image={getImage(node.img)}
@@ -68,10 +68,10 @@ const KeyTemplate = ({
                                 </div>
 
                                 <div className="flex flex-col">
-                                    <h2 className="hoverLink active:text-gray-900 capitalize transition duration-100">
+                                    <h2 className="hoverLink text-sm font-medium active:text-gray-900 capitalize transition duration-100">
                                         {node.imgtitle}
                                     </h2>
-                                    <p className="text-[12px] bg-emerald-600 w-20 text-center text-white px-2 rounded-xl">
+                                    <p className="text-[12px] bg-emerald-600 w-20 text-center text-white mx-auto mt-1 xl:m-0 px-2 rounded-xl">
                                         Zobacz
                                     </p>
                                 </div>
