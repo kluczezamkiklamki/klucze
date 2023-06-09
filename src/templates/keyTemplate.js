@@ -30,6 +30,14 @@ const KeyTemplate = ({
 
                                 <div class="block mt-1 -tracking-wide rounded-lg py-3 md:px-12 text-start">
                                     <div class="text-lg mb-4 pb-2">
+                                        <div>
+                                            <Link
+                                                to="https://goo.gl/maps/vXsgHHH7Gzq2cX958"
+                                                className="py-1 text-sm font-bold text-green-700"
+                                            >
+                                                Pokaż Mapę
+                                            </Link>
+                                        </div>
                                         <div className="flex-start font-semibold mb-4 bg-green-700 rounded-md w-max px-2 text-white">
                                             <p className="mr-4">
                                                 Cena jednego klucza:
@@ -38,6 +46,7 @@ const KeyTemplate = ({
                                                 {datoCmsKey.price}
                                             </p>
                                         </div>
+
                                         <p
                                             id="descriptionHtml"
                                             dangerouslySetInnerHTML={{
