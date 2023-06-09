@@ -8,7 +8,7 @@ const Footer = () => (
             to="https://goo.gl/maps/8KYxdVNPRYLDDkuUA"
             target="_blank"
             title="jak dojechać"
-            className="text-green-600 font-medium text-sm flex-center mb-2  w-max mx-auto py-1 px-3"
+            className="text-green-500 font-medium text-sm flex-center mb-2  w-max mx-auto py-1 px-3"
         >
             <p className="mr-1">Jak Dojechać</p>{" "}
             <svg

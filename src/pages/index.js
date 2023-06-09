@@ -22,10 +22,10 @@ const Home = () => {
             <Layout>
                 <CardsServices />
                 <div className="px-2 py-2 max-w-4xl mx-auto">
-                    <h3 className="font-bold py-6">
+                    <h2 className="font-bold py-6">
                         Witamy na naszej stronie, poświęconej kluczom w każdej
                         postaci
-                    </h3>
+                    </h2>
                     <p className="">
                         Jesteśmy firmą świadczącą kompleksowe usługi z zakresu
                         naprawy zamków i dorabiania różnego rodzaju kluczy.
