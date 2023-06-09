@@ -134,7 +134,7 @@ const Home = () => {
 export const Head = () => (
     <Seo
         title="Dorabianie Kluczy - Ostrów Wielkopolski"
-        description="Zaplanuj niezapomnianą przygodę na wodach Tanwi z naszymi kajakami, Odkryj piękno natury i ciesz się aktywnym spływem Zarezerwuj i zanurz się w emocjach"
+        description="Potrzebujesz dorabiania kluczy w Ostrowie Wielkopolskim? Skorzystaj z naszych usług! Profesjonalne dorabianie kluczy na miejscu. Sprawdź naszą ofertę już dziś!"
     />
 );
 

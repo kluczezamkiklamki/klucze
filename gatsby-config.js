@@ -17,6 +17,7 @@ module.exports = {
                 apiToken: `efce9b9c25b9ef09a2c330a014e371`,
             },
         },
+        `gatsby-plugin-sitemap`,
         {
             resolve: `gatsby-transformer-remark`,
             options: {},
