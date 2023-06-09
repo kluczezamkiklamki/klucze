@@ -23,16 +23,14 @@ function Seo({ description, title, children }) {
         <>
             <title>{defaultTitle ? `${title} ${defaultTitle}` : title}</title>
             <meta name="description" content={metaDescription} />
-            <meta property="og:title" content={title || `Kajaki Tanew`} />
+            <meta property="og:title" content={title || `Dorabianie Kluczy`} />
             <meta property="og:description" content={metaDescription} />
             <meta property="og:type" content="website" />
-            <meta name="robots" content="index, follow" />
-
             <meta
                 name="twitter:creator"
-                content={site.siteMetadata?.author || `Kajaki Tanew`}
+                content={site.siteMetadata?.author || `Dorabianie Kluczy`}
             />
-            <meta name="twitter:title" content={title || `Kajaki Tanew`} />
+            <meta name="twitter:title" content={title || `Dorabianie Kluczy`} />
             <meta name="twitter:description" content={metaDescription} />
             {children}
         </>
