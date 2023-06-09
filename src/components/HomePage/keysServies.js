@@ -6,8 +6,8 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image";
 const KeysServices = () => {
     const data = useStaticQuery(
         graphql`
-            query {
-                allDatoCmsKey {
+            {
+                allDatoCmsKey(sort: { position: ASC }) {
                     edges {
                         node {
                             slug
@@ -37,8 +37,14 @@ const KeysServices = () => {
                         title="KLUCZE PŁASKIE"
                         className="md:hover:scale-105 md:duration-150 md:transition-all"
                     >
-                        <h2 className="text-lg font-semibold">{node.imgtitle}</h2>
-                        <GatsbyImage image={getImage(node.img)} alt={node.imgtitle} title={node.imgtitle} />
+                        <h2 className="text-lg font-semibold">
+                            {node.imgtitle}
+                        </h2>
+                        <GatsbyImage
+                            image={getImage(node.img)}
+                            alt={node.imgtitle}
+                            title={node.imgtitle}
+                        />
                     </Link>
                 ))}
             </div>

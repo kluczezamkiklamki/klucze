@@ -25,7 +25,7 @@ const Cennik = () => {
             <h1 className="text-2xl font-bold px-3 py-6">
                 Cena dorabiania kluczy - Ostrów Wielkopolski
             </h1>
-
+            <p>Usługi wykonujemy ekspresowo</p>
             {data.allDatoCmsKey.edges.map(({ node }, index) => (
                 <Link
                     to={`/` + node.slug}
@@ -61,7 +61,7 @@ const Cennik = () => {
                             <p>Więcej</p>
                         </div>
                     </div>
-                    <p className="text-lg text-green-700">{node.price}</p>
+                    <p className="text-green-700">{node.price}</p>
                 </Link>
             ))}
 

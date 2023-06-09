@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 
 const Footer = () => (
-    <footer className="mt-12 py-12 bg-gray-800 text-white text-center mx-auto">
+    <footer className="mt-12 pt-12 bg-gray-800 text-white text-center mx-auto">
         <p className="text-lg font-semibold">Dorabianie Kluczy</p>
         <Link
             to="https://goo.gl/maps/8KYxdVNPRYLDDkuUA"
@@ -102,8 +102,8 @@ const Footer = () => (
             </svg>
             <p>biuro@kluczezamkiklamki.pl</p>
         </Link>
-        <div className="mt-6 border-t border-gray-300 w-4/5 mx-auto text-sm">
-            <p className="text-gray-200 my-4">
+        <div className="mt-6 border-t border-gray-500 w-4/5 mx-auto text-sm">
+            <p className="text-gray-200 py-4">
                 ©2023 kluczezamkiklamki.pl —{" "}
                 <Link to="https://seovileo.pl/" target="_blank" title="seovileo" aria-label="seovileo">seovileo.pl</Link>
             </p>

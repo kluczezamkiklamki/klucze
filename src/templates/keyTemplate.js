@@ -52,7 +52,7 @@ const KeyTemplate = ({
                 </section>
 
                 <section className="mt-2 my-12 mx-auto lg:w-1/5">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-8 sm:gap-12">
+                    <div className="grid grid-cols-2 lg:grid-cols-1 gap-8 sm:gap-12">
                         {allDatoCmsKey.edges.map(({ node }) => (
                             <Link
                                 to={`/` + node.slug}
