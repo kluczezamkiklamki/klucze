@@ -1,9 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* 
-  Note: The styles for this gradient grid background is heavily inspired by the creator of this amazing site (https://dub.sh) – all credits go to them! 
-*/
+
 .main {
     position: relative;
     width: 100%;
@@ -17,23 +15,9 @@
     }
 }
 
-.fade-in {
-    opacity: 0;
-    animation-name: fade-in;
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards;
-}
-
-
-
-
-
-
-
 a {
     @apply transition-colors duration-150;
 }
-
 
 .flex-center {
     @apply flex justify-center items-center;

@@ -22,22 +22,6 @@ module.exports = {
             resolve: `gatsby-transformer-remark`,
             options: {},
         },
-        {
-            resolve: `gatsby-omni-font-loader`,
-            options: {
-                enableListener: true,
-                preconnect: [
-                    `https://fonts.googleapis.com`,
-                    `https://fonts.gstatic.com`,
-                ],
-                web: [
-                    {
-                        name: `Open Sans`,
-                        file: `https://fonts.googleapis.com/css2?family=Coming+Soon&family=Open+Sans:wght@400;500;600;700&display=swap'`,
-                    },
-                ],
-            },
-        },
         "gatsby-plugin-postcss",
         `gatsby-plugin-image`,
         {

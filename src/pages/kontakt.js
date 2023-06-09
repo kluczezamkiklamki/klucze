@@ -14,8 +14,12 @@ const Kontakt = () => {
             </h1>
             <div className="space-y-2 font-bold text-lg mb-6">
                 <div className="px-3 py-6 w-max mx-auto text-xl">
-                    <p className="text-green-700 font-bold">Godziny Otwarcia:</p>
-                    <p className="text-green-700">poniedziałek - piątek 10:00 - 17:00</p>
+                    <h2 className="text-green-700 font-bold">
+                        Godziny Otwarcia:
+                    </h2>
+                    <p className="text-green-700">
+                        poniedziałek - piątek 10:00 - 17:00
+                    </p>
                     <p className="text-green-700">w soboty 10:00 - 13:00</p>
                 </div>
                 <p>ul. Wolności 26</p>
@@ -146,8 +150,8 @@ const Kontakt = () => {
 
 export const Head = () => (
     <Seo
-        title="Kontakt - Dorabianie Kluczy"
-        description="Zobacz najlepsze oferty spływów kajakowych na rzece Tanew. Sprawdź dostępne trasy, terminy i ceny. Zaplanuj aktywny wypoczynek na wodzie z rodziną i przyjaciółmi"
+        title="Kontakt Dorabianie Kluczy - Ostrów Wielkopolski"
+        description="Potrzebujesz dorabiania kluczy w Ostrowie Wielkopolskim? Skorzystaj z naszych usług! Profesjonalne dorabianie kluczy na miejscu. Sprawdź naszą ofertę już dziś!"
     />
 );
 
