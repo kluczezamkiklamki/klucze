@@ -31,20 +31,20 @@ const Footer = () => (
         </Link>
         <p>ul. Wolności 26</p>
         <p>63-400 Ostrów Wielkopolski</p>
-        <p>
+        <p className="py-2">
             w punkcie fotograficznym
             <Link
                 to="http://www.fotoprezenty.fotohorosiewicz.com/"
                 title="Fotohorosiewicz"
                 target="_blank"
                 aria-label="Fotohorosiewicz"
-                className="underline font-medium py-1 px-1"
+                className="underline font-medium py-2 px-1"
             >
                 Fotohorosiewicz
             </Link>
         </p>
         <Link
-            className="flex-center w-max mx-auto py-1 px-3"
+            className="flex-center w-max mx-auto py-2 px-4"
             to="tel:502331002"
             aria-label="Zadzwoń"
             title="Zadzwoń"
@@ -74,7 +74,7 @@ const Footer = () => (
             to="mailto:biuro@kluczezamkiklamki.pl"
             aria-label="mail"
             title="Mail"
-            className="flex-center w-max mx-auto py-1 px-3"
+            className="flex-center w-max mx-auto py-2 px-4"
         >
             <svg
                 xmlns="http://www.w3.org/2000/svg"
