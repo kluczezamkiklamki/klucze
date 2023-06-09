@@ -8,7 +8,7 @@ const Footer = () => (
             to="https://goo.gl/maps/8KYxdVNPRYLDDkuUA"
             target="_blank"
             title="jak dojechać"
-            className="text-green-600 font-medium text-sm flex-center mb-2  w-max mx-auto"
+            className="text-green-600 font-medium text-sm flex-center mb-2  w-max mx-auto py-1 px-3"
         >
             <p className="mr-1">Jak Dojechać</p>{" "}
             <svg
@@ -32,19 +32,19 @@ const Footer = () => (
         <p>ul. Wolności 26</p>
         <p>63-400 Ostrów Wielkopolski</p>
         <p>
-            w punkcie fotograficznym{" "}
+            w punkcie fotograficznym
             <Link
                 to="http://www.fotoprezenty.fotohorosiewicz.com/"
                 title="Fotohorosiewicz"
                 target="_blank"
                 aria-label="Fotohorosiewicz"
-                className="underline font-medium"
+                className="underline font-medium py-1 px-1"
             >
                 Fotohorosiewicz
             </Link>
         </p>
         <Link
-            className="flex-center w-max mx-auto"
+            className="flex-center w-max mx-auto py-1 px-3"
             to="tel:502331002"
             aria-label="Zadzwoń"
             title="Zadzwoń"
@@ -74,7 +74,7 @@ const Footer = () => (
             to="mailto:biuro@kluczezamkiklamki.pl"
             aria-label="mail"
             title="Mail"
-            className="flex-center w-max mx-auto"
+            className="flex-center w-max mx-auto py-1 px-3"
         >
             <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -104,8 +104,8 @@ const Footer = () => (
         </Link>
         <div className="mt-6 border-t border-gray-500 w-4/5 mx-auto text-sm">
             <p className="text-gray-200 py-4">
-                ©2023 kluczezamkiklamki.pl —{" "}
-                <Link to="https://seovileo.pl/" target="_blank" title="seovileo" aria-label="seovileo">seovileo.pl</Link>
+                ©2023 Projekt —
+                <Link to="https://seovileo.pl/" target="_blank" title="seovileo" aria-label="seovileo" className="py-1 px-2 md:hover:text-green-600">seovileo.pl</Link>
             </p>
         </div>
     </footer>

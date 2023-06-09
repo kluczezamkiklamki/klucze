@@ -23,15 +23,19 @@ const Cennik = () => {
     return (
         <Layout>
             <h1 className="text-2xl font-bold px-3 py-6">
-                Cena dorabiania kluczy - Ostrów Wielkopolski
+                Cena dorobienia kluczy - Ostrów Wielkopolski
             </h1>
-            <p>Usługi wykonujemy ekspresowo</p>
+            <p className="font-bold text-green-700 uppercase text-sm">
+                Usługi wykonujemy ekspresowo
+            </p>
             {data.allDatoCmsKey.edges.map(({ node }, index) => (
                 <Link
                     to={`/` + node.slug}
                     title={node.imgtitle}
                     className={`flex-between my-1 py-2 font-bold px-4 rounded-sm max-w-2xl mx-auto ${
-                        index % 2 === 0 ? "bg-gray-100" : "bg-blue-100"
+                        index % 2 === 0
+                            ? "bg-gray-100 md:hover:bg-sky-100"
+                            : "bg-blue-100 md:hover:bg-sky-100"
                     }`}
                 >
                     <div className="flex-center">
@@ -65,7 +69,7 @@ const Cennik = () => {
                 </Link>
             ))}
 
-            <StaticImage width={670} quality={100} src="../assets/klucze.jpg" />
+            <StaticImage width={670} quality={100} loading="eager" placeholder="none" title="klucze" alt="cena dorobienia kluczy" src="../assets/klucze.jpg" />
 
             <div className="text-start max-w-2xl mx-auto px-2">
                 <h2 className="text-lg font-bold py-6">
