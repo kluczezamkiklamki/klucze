@@ -8,7 +8,7 @@ const Footer = () => (
             to="https://goo.gl/maps/8KYxdVNPRYLDDkuUA"
             target="_blank"
             title="jak dojechać"
-            className="text-green-500 font-medium text-sm flex-center mb-2  w-max mx-auto py-1 px-3"
+            className="text-green-400 font-bold text-sm flex-center mb-2  w-max mx-auto py-1 px-3"
         >
             <p className="mr-1">Jak Dojechać</p>{" "}
             <svg
@@ -31,7 +31,7 @@ const Footer = () => (
         </Link>
         <p>ul. Wolności 26</p>
         <p>63-400 Ostrów Wielkopolski</p>
-        <p className="py-2">
+        <p className="pt-2">
             w punkcie fotograficznym
             <Link
                 to="http://www.fotoprezenty.fotohorosiewicz.com/"
@@ -43,6 +43,7 @@ const Footer = () => (
                 Fotohorosiewicz
             </Link>
         </p>
+        <p className="py-2">koło Urzędu Pracy</p>
         <Link
             className="flex-center w-max mx-auto py-2 px-4"
             to="tel:502331002"
