@@ -153,19 +153,17 @@ const Home = () => {
                             także bezpieczeństwo naszych zamków i drzwi.
                         </p>
                         <p>
-                            W Ostrów Wielkopolski istnieje wiele firm i sklepów,
+                            W Ostrowie Wielkopolskim istnieje wiele firm i sklepów,
                             które oferują usługi dorabiania kluczy. Kluczowym
                             czynnikiem jest jednak znalezienie eksperta, który
                             połączy umiejętności techniczne z doskonałym
-                            zrozumieniem potrzeb klienta. Profesjonalny
-                            dorabiacz kluczy nie tylko zapewni Ci nowe
+                            zrozumieniem potrzeb klienta. Fachowiec nie tylko zapewni Ci nowe
                             egzemplarze kluczy, ale także udzieli porad
                             dotyczących bezpieczeństwa Twojego domu lub biura.
                         </p>
                         <h2 className="text-lg font-bold py-6">Czynniki do rozważenia</h2>
                         <p>
-                            Wybierając usługę dorabiania kluczy w mieście Ostrów
-                            Wielkopolski, warto zwrócić uwagę na kilka
+                            Wybierając usługę dorabiania kluczy w Ostrowie Wielkopolskim, warto zwrócić uwagę na kilka
                             czynników. Po pierwsze, poszukaj opinii i referencji
                             od innych klientów. Często najlepszą rekomendacją
                             jest zadowolony klient, który doświadczył wysokiej
@@ -197,7 +195,7 @@ const Home = () => {
                             idealnie pasować i działać z Twoimi zamkami.
                         </p>
                         <p>
-                            Dodatkowo, dobry dorabiacz kluczy będzie w stanie
+                            Dodatkowo, fachowca będzie w stanie
                             doradzić Ci w kwestii bezpieczeństwa. Oferując
                             usługę dorabiania kluczy, które
                             zapewnią większe bezpieczeństwo Twojego domu lub
