@@ -16,7 +16,7 @@ const Home = () => {
                 loading="eager"
                 placeholder="none"
                 alt="logo kluczezamkiklamki"
-                src="../assets/heroLogo1.jpg"
+                src="../assets/heroLogo.jpg"
             />
 
             <Layout>
