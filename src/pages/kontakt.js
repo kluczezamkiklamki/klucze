@@ -36,6 +36,7 @@ const Kontakt = () => {
                         Fotohorosiewicz
                     </Link>
                 </p>
+                <p>koło Urzędu Pracy</p>
                 <Link
                     className="flex-center"
                     to="tel:502331002"
