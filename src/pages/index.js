@@ -28,13 +28,12 @@ const Home = () => {
                     </h2>
                     <p className="">
                         Jesteśmy firmą świadczącą kompleksowe usługi z zakresu
-                        naprawy zamków i dorabiania różnego rodzaju kluczy.
+                        dorabiania różnego rodzaju kluczy.
                         Każda usługa dostosowana jest do indywidualnych potrzeb
                         naszych klientów. Nasz profesjonalny zespół z
                         wieloletnim doświadczeniem zapewnia szybkie i skuteczne
                         sprostanie nawet najtrudniejszym wyzwaniom. Jako że
                         nasza firma działa również w zakresie pojazdów,
-                        niezależnie od marki, modelu czy typu samochodu,
                         jesteśmy w stanie dorobić kluczyk samochodowy, który
                         spełni wszystkie Twoje oczekiwania.
                     </p>
@@ -55,7 +54,7 @@ const Home = () => {
                         szukanie innych rozwiązań - skorzystaj z naszych usług i
                         ciesz się pełną funkcjonalnością swojego klucza dostępu.
                         Skorzystaj z najlepszego rozwiązania i zabezpiecz się z
-                        Nami. Zaufaj ekspertom, którzy zapewnią Ci wsparcie w
+                        nami. Zaufaj ekspertom, którzy zapewnią Ci wsparcie w
                         atrakcyjnej cenie. Nie trać czasu na szukanie innych
                         opcji, sprawdź i skorzystaj z naszego serwisu. Zadzwoń
                         już teraz.
@@ -140,7 +139,7 @@ const Home = () => {
                             Wielkopolski lub jego okolicach, masz szczęście,
                             ponieważ istnieje wiele miejsc, które oferują taką
                             usługę. W tym artykule przyjrzymy się bliżej temu,
-                            jak znaleźć najlepsze usługi dorabiania kluczy w
+                            jak znaleźć najlepsze usługi dorabiania kluczy w mieście
                             Ostrów Wielkopolski i jakie korzyści możesz zyskać,
                             korzystając z takiej usługi.
                         </p>
@@ -165,7 +164,7 @@ const Home = () => {
                         </p>
                         <h2 className="text-lg font-bold py-6">Czynniki do rozważenia</h2>
                         <p>
-                            Wybierając usługę dorabiania kluczy w Ostrów
+                            Wybierając usługę dorabiania kluczy w mieście Ostrów
                             Wielkopolski, warto zwrócić uwagę na kilka
                             czynników. Po pierwsze, poszukaj opinii i referencji
                             od innych klientów. Często najlepszą rekomendacją
@@ -182,7 +181,7 @@ const Home = () => {
                             kluczy jest szybkość realizacji zamówienia. Gdy
                             potrzebujesz dodatkowych kluczy pilnie, ważne jest,
                             aby usługa była dostępna i wykonana w krótkim
-                            czasie. W Ostrów Wielkopolski znajdziesz ekspertów,
+                            czasie. W mieście Ostrów Wielkopolski znajdziesz ekspertów,
                             którzy oferują szybkie i skuteczne dorabianie
                             kluczy. Dzięki temu nie musisz martwić się o utratę
                             dostępu do swojego domu czy biura.
@@ -200,11 +199,9 @@ const Home = () => {
                         <p>
                             Dodatkowo, dobry dorabiacz kluczy będzie w stanie
                             doradzić Ci w kwestii bezpieczeństwa. Oferując
-                            usługę dorabiania kluczy, ekspert może również
-                            zainstalować bardziej zaawansowane zamki, które
+                            usługę dorabiania kluczy, które
                             zapewnią większe bezpieczeństwo Twojego domu lub
-                            biura. Będzie to szczególnie ważne, jeśli mieszkasz
-                            w Ostrów Wielkopolski, gdzie dbanie o bezpieczeństwo
+                            biura. Będzie to szczególnie ważne, gdzie dbanie o bezpieczeństwo
                             swojego mienia jest kluczowym aspektem.
                         </p>
                     </div>
