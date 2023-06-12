@@ -52,7 +52,7 @@ const Home = () => {
                         cieszyć się swobodą. Nasza firma posiada doświadczenie w
                         branży, dlatego możesz nam zaufać. Nie trać czasu na
                         szukanie innych rozwiązań - skorzystaj z naszych usług i
-                        ciesz się pełną funkcjonalnością swojego klucza dostępu.
+                        ciesz się pełną funkcjonalnością swojego klucza.
                         Skorzystaj z najlepszego rozwiązania i zabezpiecz się z
                         nami. Zaufaj ekspertom, którzy zapewnią Ci wsparcie w
                         atrakcyjnej cenie. Nie trać czasu na szukanie innych
