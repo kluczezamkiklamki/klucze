@@ -64,30 +64,30 @@ const Home = () => {
                     </h2>
                     <ul>
                         <li className="list-disc ml-6 my-3">
-                            Profesjonalizm i doświadczenie - Nasz zespół składa
+                            <span className="font-meidum">Profesjonalizm i doświadczenie</span> - Nasz zespół składa
                             się z wykwalifikowanych specjalistów, którzy
                             gwarantują najwyższą jakość. Z pasją i
                             zaangażowaniem podchodzą do powierzonego zadania.
                         </li>
                         <li className="list-disc ml-6 my-3">
-                            Szybkość i efektywność - Posiadamy nowoczesny
+                            <span className="font-meidum">Szybkość i efektywność</span> - Posiadamy nowoczesny
                             sprzęt, dlatego jesteśmy w stanie wykonać swoją
                             pracę szybko i skutecznie. Według opinii klientów
                             działamy ekspresowo. Zapewniamy szerokie wsparcie
                             techniczne.
                         </li>
                         <li className="list-disc ml-6 my-3">
-                            Dostępność i elastyczność - Godziny otwarcia
+                            <span className="font-meidum">Dostępność i elastyczność</span> - Godziny otwarcia
                             dostosowujemy do Twoich potrzeb, zapewniając
                             kompleksową obsługę w najbardziej dogodnym dla
                             Ciebie czasie każdego dnia.
                         </li>
                         <li className="list-disc ml-6 my-3">
-                            Konkurencyjne ceny - Oferujemy atrakcyjne ceny,
+                            <span className="font-meidum">Konkurencyjne cen</span>y - Oferujemy atrakcyjne ceny,
                             które są dostosowane do Twojego budżetu.
                         </li>
                         <li className="list-disc ml-6 my-3">
-                            Zaufanie i satysfakcja klienta - Dlatego cieszymy
+                            <span className="font-meidum">Zaufanie i satysfakcja klienta</span> - Dlatego cieszymy
                             się pozytywnymi opiniami naszych zadowolonych
                             klientów. Pomożemy rozwiązać każdy problem, a każdą
                             osobę traktujemy indywidualnie.
@@ -153,19 +153,17 @@ const Home = () => {
                             także bezpieczeństwo naszych zamków i drzwi.
                         </p>
                         <p>
-                            W Ostrów Wielkopolski istnieje wiele firm i sklepów,
+                            W Ostrowie Wielkopolskim istnieje wiele firm i sklepów,
                             które oferują usługi dorabiania kluczy. Kluczowym
                             czynnikiem jest jednak znalezienie eksperta, który
                             połączy umiejętności techniczne z doskonałym
-                            zrozumieniem potrzeb klienta. Profesjonalny
-                            dorabiacz kluczy nie tylko zapewni Ci nowe
+                            zrozumieniem potrzeb klienta. Fachowiec nie tylko zapewni Ci nowe
                             egzemplarze kluczy, ale także udzieli porad
                             dotyczących bezpieczeństwa Twojego domu lub biura.
                         </p>
                         <h2 className="text-lg font-bold py-6">Czynniki do rozważenia</h2>
                         <p>
-                            Wybierając usługę dorabiania kluczy w mieście Ostrów
-                            Wielkopolski, warto zwrócić uwagę na kilka
+                            Wybierając usługę dorabiania kluczy w Ostrowie Wielkopolskim, warto zwrócić uwagę na kilka
                             czynników. Po pierwsze, poszukaj opinii i referencji
                             od innych klientów. Często najlepszą rekomendacją
                             jest zadowolony klient, który doświadczył wysokiej
@@ -197,7 +195,7 @@ const Home = () => {
                             idealnie pasować i działać z Twoimi zamkami.
                         </p>
                         <p>
-                            Dodatkowo, dobry dorabiacz kluczy będzie w stanie
+                            Dodatkowo, fachowca będzie w stanie
                             doradzić Ci w kwestii bezpieczeństwa. Oferując
                             usługę dorabiania kluczy, które
                             zapewnią większe bezpieczeństwo Twojego domu lub
