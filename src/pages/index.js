@@ -95,7 +95,7 @@ const Home = () => {
                     </ul>
                     <p>
                         Jeśli szukasz profesjonalistów w tej dziedzinie, to
-                        jesteś we właściwym miejscu!
+                        jesteś we właściwym miejscu! 
                     </p>
                     <h2 className="text-lg font-bold py-6">
                         Nasza lokalizacja:
