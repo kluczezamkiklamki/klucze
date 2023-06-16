@@ -23,7 +23,7 @@ const Admin = () => {
                         to="https://n125.domenomania.pl:2083/cpsess0822705061/frontend/jupiter/index.html"
                         aria-label="kontakt"
                         title="kontakt"
-                        className="bg-green-700 w-52 md:w-max md:hover:bg-green-800 text-white font-medium px-3 py-1 text-sm rounded-md"
+                        className="bg-green-700 w-52 md:w-max md:hover:bg-green-800 text-white font-medium px-3 md:mr-3 py-1 text-sm rounded-md"
                     >
                         cPanel
                     </Link>
