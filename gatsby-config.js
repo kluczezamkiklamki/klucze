@@ -7,8 +7,8 @@ module.exports = {
     siteMetadata: {
         title: ``,
         description: ``,
-        author: `Seovileo`,
-        siteUrl: `https://seovileo.pl/`,
+        author: `kluczezamkiklamki`,
+        siteUrl: `https://kluczezamkiklamki.pl`,
     },
     plugins: [
         {
