@@ -37,6 +37,10 @@ function Seo({ description, title, children }) {
                 name="google-site-verification"
                 content="CW8izdgT6-5xILuRn-PGmFRAFTtKLsS63ZQgqjE0jyY"
             />
+            <meta
+                name="msvalidate.01"
+                content="EA5601D9EBC3A3E3F1678CF47F3B487F"
+            />
             {children}
         </>
     );
