@@ -33,6 +33,10 @@ function Seo({ description, title, children }) {
             />
             <meta name="twitter:title" content={title || `Dorabianie Kluczy`} />
             <meta name="twitter:description" content={metaDescription} />
+            <meta
+                name="google-site-verification"
+                content="CW8izdgT6-5xILuRn-PGmFRAFTtKLsS63ZQgqjE0jyY"
+            />
             {children}
         </>
     );
